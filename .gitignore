@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large artifacts not redistributed
+data/pdfs/
+data/pdf_fulltext/
+data/raw.html
+data/openalex_raw.jsonl
+data/datacite_raw.jsonl
+*.zip
+*.part
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
+
+# Secrets & local config
+.env
+.env.local
+secrets.json

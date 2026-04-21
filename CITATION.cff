@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the accompanying paper."
+title: "NCML Bibliometric Retrospective 2018-2026"
+type: dataset
+authors:
+  - family-names: "Leyva Vazquez"
+    given-names: "Maikel"
+    email: mleyvaz@gmail.com
+    affiliation: "Universidad Bolivariana del Ecuador; Editor-in-Chief, Neutrosophic Computing and Machine Learning"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Gonzalez Vargas"
+    given-names: "Yismandry"
+    affiliation: "Asociacion Latinoamericana de Ciencias Neutrosoficas (ALCN), Cuba"
+    email: yismandrygonzalezvargas@gmail.com
+  - family-names: "Smarandache"
+    given-names: "Florentin"
+    affiliation: "University of New Mexico, USA; Editor-in-Chief, Neutrosophic Sets and Systems"
+    email: smarand@unm.edu
+repository-code: "https://github.com/mleyvaz/ncml-bibliometric-2026"
+url: "https://github.com/mleyvaz/ncml-bibliometric-2026"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+keywords:
+  - bibliometrics
+  - neutrosophic logic
+  - lotka law
+  - bradford law
+  - topic modeling
+  - co-authorship network
+  - open access journals
+  - editorial retrospective
+date-released: "2026-04-21"
+version: "1.0.0"
+preferred-citation:
+  type: article
+  title: "Neutrosophic Computing and Machine Learning (2018-2026): una retrospectiva bibliometrica editorial"
+  authors:
+    - family-names: "Leyva Vazquez"
+      given-names: "Maikel"
+    - family-names: "Gonzalez Vargas"
+      given-names: "Yismandry"
+    - family-names: "Smarandache"
+      given-names: "Florentin"
+  year: 2026
+  journal: "en revision"
