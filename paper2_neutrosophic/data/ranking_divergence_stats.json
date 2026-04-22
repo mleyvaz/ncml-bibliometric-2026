@@ -1,0 +1,15 @@
+{
+  "kendall_tau": 0.201,
+  "kendall_p": 0.0011,
+  "spearman_rho": 0.245,
+  "spearman_p": 0.0029,
+  "top10_overlap": 5,
+  "top10_jaccard": 0.333,
+  "n_authors": 146,
+  "weights_D1_D2_D3_D4": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ]
+}

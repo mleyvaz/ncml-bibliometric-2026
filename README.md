@@ -58,9 +58,15 @@ Un pipeline reproducible de **30 scripts Python** que:
 ├── scripts/                Los 30 scripts numerados (01-30)
 ├── data/                   Datos intermedios (CSVs, JSONL)
 ├── paper/                  Primera version (ES, retrospectiva clasica)
+│                           └─ NCML_Leyva_et_al_2026-Final-Rev2.docx
+│                           └─ cover_letter_NCML.docx
 ├── paper2_neutrosophic/    Segunda version (EN, framework neutrosofico)
+│                           └─ Leyva_et_al_2026_Neutrosophic_Bibliometric_Framework.docx
+│                           └─ data/ (9 CSVs y JSONs con indicadores N-T/I/F)
+│                           └─ figures/ (ranking_comparison.png, neutrosophic_indicators.png)
 ├── paper_combined/         **VERSION FINAL** (EN, retrospectiva + framework)
 │                           └─ NCML_Leyva_et_al_2026_Combined.docx
+│                           └─ email_to_smarandache.docx (propuesta al coautor)
 ├── figures/                13 PNGs de alta resolucion
 └── docs/                   Documentacion (INSTALL, REPRODUCE, DATASET)
 ```

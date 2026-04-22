@@ -1,0 +1,13 @@
+{
+  "alpha_mean_bootstrap": 2.027,
+  "alpha_95CI": [
+    1.998,
+    2.058
+  ],
+  "ks_critical_5pct": 0.0376,
+  "T_classical_Lotka": 0.0,
+  "I_alpha_in_range_KS_fails": 1.0,
+  "F_alpha_outside_range": 0.0,
+  "B": 1000,
+  "interpretation": "T captures the degree to which NCML's productivity distribution is fully consistent with classical Lotka (alpha in [1.9, 2.1] AND K-S passes). I captures partial consistency (exponent matches but the distribution shape diverges). F captures clear non-Lotka behaviour."
+}

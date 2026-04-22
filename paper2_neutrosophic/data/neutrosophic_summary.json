@@ -1,0 +1,104 @@
+{
+  "neutrosophic_h_index": {
+    "h_T_sample": 1,
+    "h_TI_sample": 4,
+    "h_OpenAlex_sample": 1,
+    "h_Scholar_sample": 4,
+    "h_Scholar_journal_h5": 10,
+    "T_membership": 0.038,
+    "I_membership": 0.5,
+    "F_membership": 0.462,
+    "interpretation": {
+      "T": "Articles with >=1 citation in BOTH OpenAlex and Scholar (verified positive)",
+      "I": "Articles with citation in only ONE source (evidential disagreement)",
+      "F": "Articles with no citation in any source"
+    },
+    "neutrosophic_h_index_aggregate": {
+      "lower_bound": 1,
+      "upper_bound": 10,
+      "consensus": 4
+    }
+  },
+  "neutrosophic_lotka": {
+    "alpha_mean_bootstrap": 2.027,
+    "alpha_95CI": [
+      1.998,
+      2.058
+    ],
+    "ks_critical_5pct": 0.0376,
+    "T_classical_Lotka": 0.0,
+    "I_alpha_in_range_KS_fails": 1.0,
+    "F_alpha_outside_range": 0.0,
+    "B": 1000,
+    "interpretation": "T captures the degree to which NCML's productivity distribution is fully consistent with classical Lotka (alpha in [1.9, 2.1] AND K-S passes). I captures partial consistency (exponent matches but the distribution shape diverges). F captures clear non-Lotka behaviour."
+  },
+  "bradford_top5_neutrosophic": [
+    {
+      "source": "neutrosophic sets and systems",
+      "T_nucleus": 0.877,
+      "I_nucleus": 0.169,
+      "F_nucleus": 0.0
+    },
+    {
+      "source": "neutrosophic computing and machine learning",
+      "T_nucleus": 0.854,
+      "I_nucleus": 0.2,
+      "F_nucleus": 0.0
+    },
+    {
+      "source": "universidad y sociedad",
+      "T_nucleus": 0.641,
+      "I_nucleus": 0.371,
+      "F_nucleus": 0.0
+    },
+    {
+      "source": "serie cientifica de la universidad de las ciencias informaticas",
+      "T_nucleus": 0.523,
+      "I_nucleus": 0.399,
+      "F_nucleus": 0.077
+    },
+    {
+      "source": "revista conrado",
+      "T_nucleus": 0.5,
+      "I_nucleus": 0.4,
+      "F_nucleus": 0.1
+    }
+  ],
+  "topics_aggregate": [
+    {
+      "topic": 0,
+      "n_docs": 38,
+      "T_mean": 0.441,
+      "I_mean": 0.205,
+      "F_mean": 0.356
+    },
+    {
+      "topic": 1,
+      "n_docs": 19,
+      "T_mean": 0.789,
+      "I_mean": 0.03,
+      "F_mean": 0.181
+    },
+    {
+      "topic": 2,
+      "n_docs": 29,
+      "T_mean": 0.505,
+      "I_mean": 0.148,
+      "F_mean": 0.347
+    },
+    {
+      "topic": 3,
+      "n_docs": 27,
+      "T_mean": 0.646,
+      "I_mean": 0.187,
+      "F_mean": 0.167
+    },
+    {
+      "topic": 4,
+      "n_docs": 46,
+      "T_mean": 0.48,
+      "I_mean": 0.165,
+      "F_mean": 0.356
+    }
+  ]
+}

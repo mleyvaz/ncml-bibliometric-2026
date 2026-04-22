@@ -1,0 +1,20 @@
+{
+  "h_T_sample": 1,
+  "h_TI_sample": 4,
+  "h_OpenAlex_sample": 1,
+  "h_Scholar_sample": 4,
+  "h_Scholar_journal_h5": 10,
+  "T_membership": 0.038,
+  "I_membership": 0.5,
+  "F_membership": 0.462,
+  "interpretation": {
+    "T": "Articles with >=1 citation in BOTH OpenAlex and Scholar (verified positive)",
+    "I": "Articles with citation in only ONE source (evidential disagreement)",
+    "F": "Articles with no citation in any source"
+  },
+  "neutrosophic_h_index_aggregate": {
+    "lower_bound": 1,
+    "upper_bound": 10,
+    "consensus": 4
+  }
+}
