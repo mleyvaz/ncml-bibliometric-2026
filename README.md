@@ -4,12 +4,15 @@ Codigo y datos del estudio bibliometrico de la revista *Neutrosophic Computing
 and Machine Learning* (NCML) durante el periodo 2018-2026. Acompana al paper:
 
 > Leyva Vazquez, M.; Gonzalez Vargas, Y.; Smarandache, F. (2026).
-> **Neutrosophic Computing and Machine Learning (2018-2026): una
-> retrospectiva bibliometrica editorial.** [manuscrito en revision].
+> **Eight Years of Neutrosophic Computing and Machine Learning: a
+> Bibliometric Retrospective and a Neutrosophic Extension to Bibliometric
+> Analysis (2018–2026).** [manuscript under review].
+>
+> Manuscript: `paper_combined/NCML_Leyva_et_al_2026_Combined.docx`
 
 ## Que hay aqui
 
-Un pipeline reproducible de 22 scripts Python que:
+Un pipeline reproducible de **30 scripts Python** que:
 
 1. Scrapea los 762 articulos del sitio oficial de NCML.
 2. Descarga los PDF (728/762 = 95.5% exito por problemas de encoding en origen).
@@ -21,7 +24,10 @@ Un pipeline reproducible de 22 scripts Python que:
 8. Modela topicos con embeddings multilingues + UMAP + KMeans.
 9. Triangula impacto citacional entre OpenAlex, Scholar Metrics y un muestreo
    Scholar estratificado.
-10. Genera 11 figuras PNG y un Excel de 19 hojas con el dataset completo.
+10. **Computa extensiones neutrosoficas (T, I, F) para 5 indicadores:**
+    N-h-index, N-Lotka, N-Bradford, N-topic membership, N-coauthorship.
+11. **Agrega autores via SVNWA (Ye 2014)** y compara con el ranking clasico.
+12. Genera 13 figuras PNG y un Excel de 19 hojas con el dataset completo.
 
 ## Hallazgos resumidos
 
@@ -49,11 +55,14 @@ Un pipeline reproducible de 22 scripts Python que:
 ├── CITATION.cff
 ├── requirements.txt
 ├── .gitignore
-├── scripts/                Los 22 scripts numerados
+├── scripts/                Los 30 scripts numerados (01-30)
 ├── data/                   Datos intermedios (CSVs, JSONL)
-├── paper/                  Draft en .md, refs.bib, Word
-├── figures/                PNGs de alta resolucion
-└── docs/                   Documentacion adicional (INSTALL, REPRODUCE, DATASET)
+├── paper/                  Primera version (ES, retrospectiva clasica)
+├── paper2_neutrosophic/    Segunda version (EN, framework neutrosofico)
+├── paper_combined/         **VERSION FINAL** (EN, retrospectiva + framework)
+│                           └─ NCML_Leyva_et_al_2026_Combined.docx
+├── figures/                13 PNGs de alta resolucion
+└── docs/                   Documentacion (INSTALL, REPRODUCE, DATASET)
 ```
 
 **NO incluido en el repo** (por tamano):
